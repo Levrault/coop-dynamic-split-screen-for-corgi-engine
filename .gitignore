@@ -4,6 +4,7 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/CorgiEngine
+/Assets/MMData
 
 # Visual Studio 2015 cache directory
 /.vs/
@@ -23,6 +24,7 @@ ExportedObj/
 *.booproj
 *.svd
 *.pdb
+*.meta
 
 # Unity3D generated meta files
 *.pidb.meta
