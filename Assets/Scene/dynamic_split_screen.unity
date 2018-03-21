@@ -222,7 +222,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4205811574027170, guid: 71963abdc3d4e4c31b8c8ada011fd00b, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114418998761216760, guid: 71963abdc3d4e4c31b8c8ada011fd00b,
         type: 2}
@@ -321,7 +321,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4851436768698962, guid: 2d855778641c2461ba74343caa3e6d97, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1188763287810922, guid: 2d855778641c2461ba74343caa3e6d97, type: 2}
       propertyPath: m_Name
@@ -1396,7 +1396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerPrefabs:
   - {fileID: 114473069959786316, guid: 460a0ee26c86f4e5ab4b2678c9712069, type: 2}
-  - {fileID: 114000013163076738, guid: 278bf16c988340d49b37d9476cc73015, type: 2}
+  - {fileID: 114473069959786316, guid: 460a0ee26c86f4e5ab4b2678c9712069, type: 2}
   AutoAttributePlayerIDs: 1
   DebugSpawn: {fileID: 0}
   CheckpointAttributionAxis: 0
@@ -1511,7 +1511,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4231632719725098, guid: 8fa9d0f308e4a4a4a8f64c5a1c72e464, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20388473108820046, guid: 8fa9d0f308e4a4a4a8f64c5a1c72e464,
+        type: 2}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 20388473108820046, guid: 8fa9d0f308e4a4a4a8f64c5a1c72e464,
+        type: 2}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fa9d0f308e4a4a4a8f64c5a1c72e464, type: 2}
@@ -1606,7 +1616,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4920730300645178, guid: 51073af0449ee4ef994bef579c94ebff, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51073af0449ee4ef994bef579c94ebff, type: 2}
